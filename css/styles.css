@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* *{
+    margin: 0;
+    padding: 0;;
+} */
+
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+body {
+    background-color: rgb(255, 247, 232);
+    font-family: "Roboto", sans-serif;
+    margin: 0 100px 0 100px;
+}
+
+footer{
+    text-align: center;
+}
+
+.apresentacao {
+    width: 500px;
+    height: 350px;
+    border-radius: 5%;
+    box-shadow: 5px;
+}
+
+.apresentacao:hover {
+    transform: scale(1.1);
+}
+
+.culinaria{
+    display: flex;
+    justify-content: space-around;
+}
+
+.culinaria__subtitulo{
+    margin-bottom: 50px;
+}
+
+
+.culinaria__prato1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.culinaria__prato1_nomePrato{
+    margin: 20px 0 5px 0;
+    max-width: 300px;
+}
+
+.culinaria__prato1_descricaoPrato{
+    margin: 0;
+    max-width: 300px;
+}
+
+.culinaria__prato1_foto{
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+}
+
+.culinaria__prato1_foto:hover{
+    transform: scale(1.1)
+}
+
+.culinaria__prato2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.culinaria__prato2_nomePrato{
+    margin: 20px 0 5px 0;
+    max-width: 300px;
+}
+
+.culinaria__prato2_descricaoPrato{
+    margin: 0;
+    max-width: 300px;
+}
+
+.culinaria__prato2_foto{
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+}
+
+.culinaria__prato2_foto:hover{
+    transform: scale(1.1)
+}
+
+.culinaria__prato3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.culinaria__prato3_nomePrato{
+    margin: 20px 0 5px 0;
+    max-width: 300px;
+}
+
+.culinaria__prato3_descricaoPrato{
+    margin: 0;
+    max-width: 300px;
+}
+
+.culinaria__prato3_foto{
+    width: 300px;
+    height: 300px; 
+    border-radius: 5%;
+}
+
+.culinaria__prato3_foto:hover{
+    transform: scale(1.1)
+}
