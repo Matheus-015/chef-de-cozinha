@@ -41,84 +41,29 @@ footer{
     margin-bottom: 50px;
 }
 
-
-.culinaria__prato1{
+.prato {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    max-width: 300px;
 }
 
-.culinaria__prato1_nomePrato{
+.prato__nome {
     margin: 20px 0 5px 0;
-    max-width: 300px;
 }
 
-.culinaria__prato1_descricaoPrato{
+.prato__descricao {
     margin: 0;
-    max-width: 300px;
 }
 
-.culinaria__prato1_foto{
+.prato__foto {
     width: 300px;
     height: 300px;
     border-radius: 5%;
+    transition: transform 0.3s ease;
 }
 
-.culinaria__prato1_foto:hover{
-    transform: scale(1.1)
-}
-
-.culinaria__prato2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.culinaria__prato2_nomePrato{
-    margin: 20px 0 5px 0;
-    max-width: 300px;
-}
-
-.culinaria__prato2_descricaoPrato{
-    margin: 0;
-    max-width: 300px;
-}
-
-.culinaria__prato2_foto{
-    width: 300px;
-    height: 300px;
-    border-radius: 5%;
-}
-
-.culinaria__prato2_foto:hover{
-    transform: scale(1.1)
-}
-
-.culinaria__prato3{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.culinaria__prato3_nomePrato{
-    margin: 20px 0 5px 0;
-    max-width: 300px;
-}
-
-.culinaria__prato3_descricaoPrato{
-    margin: 0;
-    max-width: 300px;
-}
-
-.culinaria__prato3_foto{
-    width: 300px;
-    height: 300px; 
-    border-radius: 5%;
-}
-
-.culinaria__prato3_foto:hover{
-    transform: scale(1.1)
+.prato__foto:hover {
+    transform: scale(1.1);
 }
